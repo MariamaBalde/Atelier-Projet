@@ -83,7 +83,7 @@ header .secondhead .secondheadpart3 ul .fa-solid {
 .container{
     display: flex;
     flex-direction: column;
-    gap:10px
+    gap:10px;
 }
 
 .premiere h1{
@@ -109,7 +109,6 @@ header .secondhead .secondheadpart3 ul .fa-solid {
     text-align: center;
     font-size: 28px;
     font-weight: bold;
-    /* margin-bottom: -20px; */
     color: rgb(151, 25, 25);
 }
 
@@ -142,26 +141,28 @@ header .secondhead .secondheadpart3 ul .fa-solid {
     text-align: center;
     font-size: 20px;
     color: rgb(124, 139, 134);
-    /* margin-top: -30px; */
+ 
 }
 
 .flex{
     display: flex;
     flex-direction: row;
-    /* justify-content: space-between; */
-    /* align-items: center; */
     justify-content: space-evenly;
-    /* gap:5px; */
-    /* font-size: smaller;
-    font-style:normal; */
     text-align: center;
     color: rgb(104, 109, 107);
-    
+  
 }
+
+#flex1{
+    padding-bottom: 30px;   
+}
+
+#flex2{
+    padding-bottom: 100px;   
+}
+
 h4{
    font-size:20px;
-   /* margin-top: 5px; */
-   /* margin-bottom: -22px; */
 }
 .tax{
     width:290px;
@@ -169,6 +170,11 @@ h4{
 }
 
 /* ----------------------------------------------------------------------- footer ------------------------------------------------------------------------ */
+
+footer{
+    max-height: 100px;
+    height: 100px;
+}
 
 footer .lastpart {
     width: 100%;
